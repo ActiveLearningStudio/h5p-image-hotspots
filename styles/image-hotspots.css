@@ -19,6 +19,7 @@
   overflow: hidden;
   width: auto;
   max-width: 100%;
+  background: #fff;
 }
 .h5p-image-hotspots-background {
   width: 100%;
@@ -206,6 +207,10 @@
   opacity: 0;
 }
 
+.h5p-image-hotspot-popup-content.h5p-image-hotspot-popup-content-no-header {
+  padding-top: 0.35em;
+}
+
 .h5p-image-hotspot-popup-content::-webkit-scrollbar {
   background-color: #ebebeb;
   width: 0.25em;
@@ -229,8 +234,8 @@
 }
 .h5p-image-hotspot-close-popup-button {
   position: absolute;
-  top: 1em;
-  right: 1em;
+  top: 0.5em;
+  right: 0.5em;
   width: 2em;
   height: 2em;
   border: 1px solid transparent;
